@@ -7,7 +7,7 @@
     tools:context=".logActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnSignUp"
         android:layout_width="122dp"
         android:layout_height="42dp"
         android:text="Sign Up"
@@ -15,38 +15,38 @@
         tools:layout_editor_absoluteY="234dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnSingIn"
         android:layout_width="123dp"
         android:layout_height="43dp"
         android:text="Sign In"
         tools:layout_editor_absoluteX="66dp"
         tools:layout_editor_absoluteY="307dp" />
 
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="E.mail"
-        android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="84dp"
-        tools:layout_editor_absoluteY="59dp" />
-
-    <EditText
-        android:id="@+id/editText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="password"
-        android:inputType="textPassword"
-        tools:layout_editor_absoluteX="82dp"
-        tools:layout_editor_absoluteY="136dp" />
-
     <RadioButton
-        android:id="@+id/radioButton"
+        android:id="@+id/rbtnStayActive"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Stay Active"
         tools:layout_editor_absoluteX="237dp"
         tools:layout_editor_absoluteY="318dp" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="74dp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="129dp" />
 </android.support.constraint.ConstraintLayout>

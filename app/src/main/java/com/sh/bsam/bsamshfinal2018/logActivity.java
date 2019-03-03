@@ -13,7 +13,6 @@ public class logActivity extends AppCompatActivity {
     private EditText etPassword;
     private Button btnSignUp;
     private Button btnSignIn;
-    private RadioButton rbtnStayActive;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +23,6 @@ public class logActivity extends AppCompatActivity {
         etPassword = (EditText) findViewById(R.id.etPassword);
         btnSignIn = (Button) findViewById(R.id.btnSingIn);
         btnSignUp = (Button) findViewById(R.id.btnSignUp);
-        rbtnStayActive = (RadioButton) findViewById(R.id.rbtnStayActive);
 
         btnSignUp.setOnClickListener(new View.OnClickListener() {
             @Override

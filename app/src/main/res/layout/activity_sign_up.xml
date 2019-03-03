@@ -7,7 +7,7 @@
     tools:context=".SignUp">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/etFirstName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -17,7 +17,7 @@
         tools:layout_editor_absoluteY="40dp" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/etLastName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -27,7 +27,7 @@
         tools:layout_editor_absoluteY="100dp" />
 
     <EditText
-        android:id="@+id/editText6"
+        android:id="@+id/etPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -37,7 +37,7 @@
         tools:layout_editor_absoluteY="217dp" />
 
     <EditText
-        android:id="@+id/editText7"
+        android:id="@+id/etConfirmPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -47,7 +47,7 @@
         tools:layout_editor_absoluteY="271dp" />
 
     <EditText
-        android:id="@+id/editText8"
+        android:id="@+id/etEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -55,4 +55,22 @@
         android:inputType="textEmailAddress"
         tools:layout_editor_absoluteX="84dp"
         tools:layout_editor_absoluteY="157dp" />
+
+    <EditText
+        android:id="@+id/etPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="400dp" />
 </android.support.constraint.ConstraintLayout>

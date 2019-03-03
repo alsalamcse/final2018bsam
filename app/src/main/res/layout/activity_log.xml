@@ -11,16 +11,16 @@
         android:layout_width="134dp"
         android:layout_height="41dp"
         android:text="Sign Up"
-        tools:layout_editor_absoluteX="119dp"
-        tools:layout_editor_absoluteY="234dp" />
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="207dp" />
 
     <Button
         android:id="@+id/btnSingIn"
         android:layout_width="131dp"
         android:layout_height="43dp"
         android:text="Sign In"
-        tools:layout_editor_absoluteX="122dp"
-        tools:layout_editor_absoluteY="302dp" />
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="268dp" />
 
     <EditText
         android:id="@+id/etEmail"
@@ -41,4 +41,13 @@
         android:inputType="textPassword"
         tools:layout_editor_absoluteX="84dp"
         tools:layout_editor_absoluteY="129dp" />
+
+    <Button
+        android:id="@+id/btnTheBarber"
+        android:layout_width="129dp"
+        android:layout_height="46dp"
+        android:text="The Barber"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="408dp" />
+
 </android.support.constraint.ConstraintLayout>
